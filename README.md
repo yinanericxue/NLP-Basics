@@ -25,15 +25,7 @@
 ## d is the dismension of a vector which represents a word
 ## from the matric multiplication, we select out a specific word vector
 
-## from keras.models import Sequential
-## from keras.layers import Flatten, Dense, Embedding
-## number_of_vocabulary = 10000
-## embedding_dimension = 8
-## number_of_words = 20
+![Screen Shot 2023-08-19 at 12 20 01 PM](https://github.com/yinanericxue/NLP-Basics/assets/102645083/c7b9dfb2-c76a-4b33-9e83-2c835e28fddc)
 
-## model.add(Embedding(number_of_vocabulary, embedding_dimension, imput_length=number_of_words))
-## model.add(Flatten())
-## model.add(Dense(1, activation='sigmoid'))
-## model.summary()
+![Screen Shot 2023-08-19 at 12 38 30 PM](https://github.com/yinanericxue/NLP-Basics/assets/102645083/40f07b19-5d71-4032-a908-1dd45074b0d7)
 
-![Screen Shot 2023-08-19 at 12 16 28 PM](https://github.com/yinanericxue/NLP-Basics/assets/102645083/8a3d5b90-1984-46a4-962c-1326e8360dd5)
