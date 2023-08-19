@@ -27,14 +27,13 @@
 
 ## from keras.models import Sequential
 ## from keras.layers import Flatten, Dense, Embedding
+## number_of_vocabulary = 10000
+## embedding_dimension = 8
+## number_of_words = 20
 
-##number_of_vocabulary = 10000
-##embedding_dimension = 8
-##number_of_words = 20
-
-model.add(Embedding(number_of_vocabulary, embedding_dimension, imput_length=number_of_words))
-model.add(Flatten())
-model.add(Dense(1, activation='sigmoid'))
-model.summary()
+## model.add(Embedding(number_of_vocabulary, embedding_dimension, imput_length=number_of_words))
+## model.add(Flatten())
+## model.add(Dense(1, activation='sigmoid'))
+## model.summary()
 
 ![Screen Shot 2023-08-19 at 12 16 28 PM](https://github.com/yinanericxue/NLP-Basics/assets/102645083/8a3d5b90-1984-46a4-962c-1326e8360dd5)
