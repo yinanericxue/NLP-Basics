@@ -6,3 +6,6 @@
 
 # Step 2: Build Dictionary
 ## ["the": 1, "cat": 2, "sat": 3, "on": 4, "the": 5, "mat": 6]
+
+# Step 3: One-Hot Encoding
+## "the" becomes [1, 0, 0, 0, 0, 0]
