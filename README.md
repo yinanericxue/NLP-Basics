@@ -28,9 +28,9 @@
 ## from keras.models import Sequential
 ## from keras.layers import Flatten, Dense, Embedding
 
-number_of_vocabulary = 10000
-embedding_dimension = 8
-number_of_words = 20
+##number_of_vocabulary = 10000
+##embedding_dimension = 8
+##number_of_words = 20
 
 model.add(Embedding(number_of_vocabulary, embedding_dimension, imput_length=number_of_words))
 model.add(Flatten())
