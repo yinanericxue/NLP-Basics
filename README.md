@@ -29,3 +29,13 @@
 
 ![Screen Shot 2023-08-19 at 12 38 30 PM](https://github.com/yinanericxue/NLP-Basics/assets/102645083/40f07b19-5d71-4032-a908-1dd45074b0d7)
 
+## Simple RNN
+<img width="1061" alt="Screen Shot 2023-08-19 at 5 19 49 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/5299ab69-91fd-4f99-aba1-8435f7209899">
+
+## There's only one set of A in a RNN model. The values in A are initialized in the beginning by random values and adjusted during training.
+
+<img width="526" alt="Screen Shot 2023-08-19 at 5 21 03 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/f8e69acc-1c27-4d48-b48b-a97f04af0d39">
+<img width="780" alt="Screen Shot 2023-08-19 at 5 27 12 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/9041c08f-70fe-4361-a3dd-4df973399537">
+
+
+
