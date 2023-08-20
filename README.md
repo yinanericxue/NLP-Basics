@@ -39,7 +39,7 @@
 
 # LSTM
 
-# Conveyor Belt: information directly flows from the past to the future
+## Conveyor Belt: information directly flows from the past to the future
 <img width="572" alt="Screen Shot 2023-08-19 at 5 57 47 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/f7d8748a-3ee9-480c-84d7-b258de621ff5">
 
 
