@@ -37,12 +37,22 @@
 <img width="526" alt="Screen Shot 2023-08-19 at 5 21 03 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/f8e69acc-1c27-4d48-b48b-a97f04af0d39">
 <img width="780" alt="Screen Shot 2023-08-19 at 5 27 12 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/9041c08f-70fe-4361-a3dd-4df973399537">
 
+# LSTM
 
-## Forget Gate
+# Conveyor Belt: information directly flows from the past to the future
+<img width="572" alt="Screen Shot 2023-08-19 at 5 57 47 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/f7d8748a-3ee9-480c-84d7-b258de621ff5">
+
+
+## Forget Gate: 
 <img width="1246" alt="Screen Shot 2023-08-19 at 5 32 46 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/d0f21157-43ea-4dd9-946c-fd0321d6b4c2">
 
 ## For example, if a = [1, 3, 0, -2], we get:
 <img width="431" alt="Screen Shot 2023-08-19 at 5 33 49 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/57dfdebf-dfda-4fae-a2bf-a8689d5fdfcc">
 <img width="581" alt="Screen Shot 2023-08-19 at 5 35 22 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/3cb8e1c8-f671-4378-a7a3-bfe8f467d820">
+<img width="831" alt="Screen Shot 2023-08-19 at 5 53 45 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/a2e30683-b642-42e6-8aa4-15393dbb56f0">
+
+## Input Gate: decides which value sof the conveyor belt to update
+<img width="557" alt="Screen Shot 2023-08-19 at 5 55 14 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/27e6f2ca-2ea2-4e60-bf44-b1710671ab52">
+
 
 
