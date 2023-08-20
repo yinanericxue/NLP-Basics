@@ -50,9 +50,24 @@
 <img width="431" alt="Screen Shot 2023-08-19 at 5 33 49 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/57dfdebf-dfda-4fae-a2bf-a8689d5fdfcc">
 <img width="581" alt="Screen Shot 2023-08-19 at 5 35 22 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/3cb8e1c8-f671-4378-a7a3-bfe8f467d820">
 <img width="831" alt="Screen Shot 2023-08-19 at 5 53 45 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/a2e30683-b642-42e6-8aa4-15393dbb56f0">
+## In the above, 0.2 will not go through because it's matched with 0. -0.5 will fully go through because it's matched with 1.
 
-## Input Gate: decides which value sof the conveyor belt to update
+## It's more complicated than just numbers in a real scenario
+<img width="609" alt="Screen Shot 2023-08-19 at 6 03 50 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/dc14f756-f24b-498c-a057-4e928dec16dc">
+
+## The vector of the previous state is concatenated with the current word's vector, multiplied with a set of weight, and then goes through the sigmoid activation function to become the ft.
+
+## Input Gate: decides which values of the conveyor belt to update
 <img width="557" alt="Screen Shot 2023-08-19 at 5 55 14 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/27e6f2ca-2ea2-4e60-bf44-b1710671ab52">
 
+## There are two sets of operations here, one with sigmoid (it) and one with tanh (ćt).
 
+## Now that we have everything, we can now find Ct.
+<img width="1275" alt="Screen Shot 2023-08-19 at 6 10 39 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/17ade933-b5c1-4391-af7b-46cf5a7508e5">
+
+## Output Gate: decide what flows from the conveyor belt to the state
+<img width="1249" alt="Screen Shot 2023-08-19 at 6 13 14 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/a4b2d86b-5552-4f4a-a9b6-dce236b91db3">
+
+## Ot has the exact same calculations as the previous ones.
+<img width="1245" alt="Screen Shot 2023-08-19 at 6 14 46 PM" src="https://github.com/yinanericxue/NLP-Basics/assets/102645083/5c773ae5-01d9-4a4e-8d88-3dcfed7c860c">
 
